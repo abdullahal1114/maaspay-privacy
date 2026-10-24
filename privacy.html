@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MaaşPay – Gizlilik Politikası / Privacy Policy</title>
+<style>
+:root{
+  --bg:#F6F9F8; --surface:#FFFFFF; --text:#12201E; --muted:#51635F;
+  --line:#DCE7E4; --primary:#0F766E; --primary-dark:#064E3B; --chip:#E3F4F1;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1716; --surface:#15221F; --text:#E7F1EF; --muted:#9DB2AE;
+    --line:#26373A; --primary:#2DD4BF; --primary-dark:#0F766E; --chip:#173532;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-padding-top:16px}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  line-height:1.65; font-size:16px;
+}
+header{
+  background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+  color:#fff; padding:36px 20px 40px;
+}
+.wrap{max-width:720px; margin:0 auto; padding:0 20px}
+header .wrap{padding:0}
+header h1{margin:0 0 6px; font-size:1.7rem; letter-spacing:-.01em}
+header p{margin:0; opacity:.9; font-size:.95rem}
+.lang{display:inline-flex; background:rgba(255,255,255,.18); border-radius:24px; padding:3px; margin-top:18px}
+.lang button{
+  border:0; background:transparent; color:#fff; font:inherit; font-weight:700;
+  font-size:.85rem; padding:6px 16px; border-radius:20px; cursor:pointer;
+}
+.lang button[aria-pressed="true"]{background:#fff; color:var(--primary-dark)}
+.lang button:focus-visible{outline:2px solid #fff; outline-offset:2px}
+main{padding:28px 0 56px}
+section{
+  background:var(--surface); border:1px solid var(--line);
+  border-radius:16px; padding:20px 22px; margin-bottom:14px;
+}
+h2{margin:0 0 8px; font-size:1.08rem; color:var(--primary)}
+p,li{margin:0 0 8px; color:var(--text)}
+ul{margin:0; padding-left:20px}
+.meta{color:var(--muted); font-size:.88rem; margin-bottom:16px}
+a{color:var(--primary)}
+footer{color:var(--muted); font-size:.85rem; text-align:center; padding-bottom:40px}
+[lang-block]{display:none}
+html[lang="tr"] [lang-block="tr"], html[lang="en"] [lang-block="en"]{display:block}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>MaaşPay</h1>
+    <p id="sub">Gizlilik Politikası</p>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-l="tr" aria-pressed="true">TR</button>
+      <button type="button" data-l="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ================= TÜRKÇE ================= -->
+<div lang-block="tr">
+  <p class="meta">Son güncelleme: <span class="date">__TARIH__</span></p>
+
+  <section>
+    <h2>Genel bakış</h2>
+    <p>MaaşPay, maaşını ve harcamalarını takip etmene yardımcı olan bir kişisel finans uygulamasıdır. Bu sayfa, hangi verileri topladığımızı, nasıl sakladığımızı ve haklarının neler olduğunu açıklar.</p>
+  </section>
+
+  <section>
+    <h2>Topladığımız veriler</h2>
+    <ul>
+      <li>Girdiğin harcamalar (tutar, kategori, not, tarih, ödeme şekli).</li>
+      <li>Girdiğin maaş bilgisi ve maaş günü.</li>
+      <li>Oluşturduğun özel kategoriler.</li>
+      <li>Dil, tema ve benzeri uygulama tercihlerin.</li>
+      <li>Google ile giriş yaparsan: e-posta adresin, adın ve profil fotoğrafın.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Giriş ve hesap</h2>
+    <p>Uygulama, Firebase Authentication ile anonim (misafir) veya Google hesabınla oturum açar. Anonim oturumu Google hesabına bağlayabilirsin; böylece verilerin cihaz değiştirsen bile korunur.</p>
+  </section>
+
+  <section>
+    <h2>Verilerin nerede saklanır</h2>
+    <p>Verilerin, Google Firebase (Cloud Firestore) üzerinde sana özel bir alanda saklanır. Başka kullanıcılar verilerine erişemez.</p>
+  </section>
+
+  <section>
+    <h2>Fiş tarama</h2>
+    <p>Fiş tararken seçtiğin veya çektiğin fotoğraf, metni okumak için işlenir. Fotoğrafın kendisi hesabında saklanmaz; yalnızca onayladığın harcama bilgileri kaydedilir.</p>
+  </section>
+
+  <section>
+    <h2>Paylaşım</h2>
+    <p>Verilerini satmayız, reklam amacıyla üçüncü taraflarla paylaşmayız. Veriler yalnızca uygulamanın çalışması için kullandığımız altyapı sağlayıcısı (Google Firebase) tarafından işlenir.</p>
+  </section>
+
+  <section>
+    <h2>Dışa aktarma</h2>
+    <p>Harcamalarını Excel veya PDF olarak dışa aktarabilirsin. Dosyayı nereye göndereceğine sen karar verirsin; MaaşPay bu dosyaları paylaşmaz.</p>
+  </section>
+
+  <section>
+    <h2>Hesabı ve verileri silme</h2>
+    <p>Uygulamada Profil bölümündeki “Hesabı ve verileri sil” seçeneğiyle tüm harcamaların, maaşların, kategorilerin ve ayarların kalıcı olarak silinir. Bu işlem geri alınamaz. Uygulamaya erişemiyorsan aşağıdaki e-posta adresinden silme talebi gönderebilirsin.</p>
+  </section>
+
+  <section>
+    <h2>Çocuklar</h2>
+    <p>MaaşPay 13 yaşın altındaki çocuklara yönelik değildir ve bilerek onlardan veri toplamaz.</p>
+  </section>
+
+  <section>
+    <h2>Değişiklikler</h2>
+    <p>Bu politikayı güncellersek yeni tarihi bu sayfada yayınlarız.</p>
+  </section>
+
+  <section>
+    <h2>İletişim</h2>
+    <p>Sorular ve talepler için: <a href="mailto:apocan58010@gmail.com">apocan58010@gmail.com</a></p>
+  </section>
+</div>
+
+<!-- ================= ENGLISH ================= -->
+<div lang-block="en">
+  <p class="meta">Last updated: <span class="date">__DATE__</span></p>
+
+  <section>
+    <h2>Overview</h2>
+    <p>MaaşPay is a personal finance app that helps you track your salary and spending. This page explains what data we collect, how we store it, and what your rights are.</p>
+  </section>
+
+  <section>
+    <h2>Data we collect</h2>
+    <ul>
+      <li>The expenses you enter (amount, category, note, date, payment method).</li>
+      <li>The salary and pay day you enter.</li>
+      <li>Custom categories you create.</li>
+      <li>Your app preferences such as language and theme.</li>
+      <li>If you sign in with Google: your email address, name and profile photo.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sign-in and account</h2>
+    <p>The app signs you in with Firebase Authentication, either anonymously (guest) or with your Google account. You can link a guest session to Google so your data stays safe if you change devices.</p>
+  </section>
+
+  <section>
+    <h2>Where your data is stored</h2>
+    <p>Your data is stored in a private area for you on Google Firebase (Cloud Firestore). Other users cannot access it.</p>
+  </section>
+
+  <section>
+    <h2>Receipt scanning</h2>
+    <p>When you scan a receipt, the photo you take or pick is processed to read its text. The photo itself is not stored in your account; only the expense details you confirm are saved.</p>
+  </section>
+
+  <section>
+    <h2>Sharing</h2>
+    <p>We do not sell your data or share it with third parties for advertising. Data is processed only by the infrastructure provider we use to run the app (Google Firebase).</p>
+  </section>
+
+  <section>
+    <h2>Exporting</h2>
+    <p>You can export your expenses as Excel or PDF. You decide where to send the file; MaaşPay does not share these files.</p>
+  </section>
+
+  <section>
+    <h2>Deleting your account and data</h2>
+    <p>Use “Delete account and data” in the Profile section of the app to permanently delete all your expenses, salaries, categories and settings. This cannot be undone. If you cannot access the app, you can request deletion at the email address below.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>MaaşPay is not directed at children under 13 and does not knowingly collect data from them.</p>
+  </section>
+
+  <section>
+    <h2>Changes</h2>
+    <p>If we update this policy, we will publish the new date on this page.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>For questions and requests: <a href="mailto:apocan58010@gmail.com">apocan58010@gmail.com</a></p>
+  </section>
+</div>
+
+</main>
+<footer>© MaaşPay</footer>
+
+<script>
+(function(){
+  var months = {
+    tr:['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'],
+    en:['January','February','March','April','May','June','July','August','September','October','November','December']
+  };
+  var subs = {tr:'Gizlilik Politikası', en:'Privacy Policy'};
+  var UPDATED = new Date(2026, 9, 24); // 24 Ekim 2026
+
+  function fmt(l){
+    var d = UPDATED;
+    return l === 'tr'
+      ? d.getDate() + ' ' + months.tr[d.getMonth()] + ' ' + d.getFullYear()
+      : months.en[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+  }
+  function setLang(l){
+    document.documentElement.lang = l;
+    document.getElementById('sub').textContent = subs[l];
+    document.title = 'MaaşPay – ' + subs[l];
+    var els = document.querySelectorAll('.date');
+    for (var i = 0; i < els.length; i++) els[i].textContent = fmt(l);
+    var bs = document.querySelectorAll('.lang button');
+    for (var j = 0; j < bs.length; j++)
+      bs[j].setAttribute('aria-pressed', bs[j].getAttribute('data-l') === l ? 'true' : 'false');
+    try { localStorage.setItem('lang', l); } catch(e){}
+  }
+  var bs = document.querySelectorAll('.lang button');
+  for (var k = 0; k < bs.length; k++)
+    bs[k].addEventListener('click', function(){ setLang(this.getAttribute('data-l')); });
+
+  var l = 'tr';
+  try { l = localStorage.getItem('lang'); } catch(e){}
+  if (l !== 'tr' && l !== 'en') l = (navigator.language || '').slice(0,2) === 'tr' ? 'tr' : 'en';
+  setLang(l);
+})();
+</script>
+</body>
+</html>
